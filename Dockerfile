@@ -4,7 +4,7 @@ RUN apt-get install -y wget
 COPY HelloWorld.java /
 
 RUN javac HelloWorld.java 
-
+RUN echo "Toto"
 RUN mkdir TestDir
 
 
