@@ -10,4 +10,4 @@ RUN mkdir TestDir
 
 RUN echo "toto titit tata " > TestDir/titi
 VOLUME "TestDir"
-
+CMD ["java", "HelloWorld.class"]
